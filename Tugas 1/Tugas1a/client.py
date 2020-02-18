@@ -12,7 +12,7 @@ sock.connect(server_address)
 
 try:
     # Send data
-    fl = open("isifile.txt", 'rb')
+    fl = open("isifile.txt", 'r')
     isi = fl.read(64)
     message = str(isi)
     fl.close()
