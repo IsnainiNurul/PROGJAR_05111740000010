@@ -15,7 +15,7 @@ while True:
     print(f"connection from {client_address}")
     # Receive the data in small chunks and retransmit it
 
-    with open('received_file.txt', 'wb') as fl:
+    with open('file_terima.txt', 'wb') as fl:
         print("opened")
         while True:
             data = connection.recv(64)
