@@ -29,9 +29,11 @@
  
  
 ### TUGAS 1A ###
-Soal : MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)
+Soal : MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)      
 * Server dijalankan di komputer yang berbeda, client mencoba untuk mengirimkan file :
   - Kondisi awal server di komputer yang berbeda dengan port 31001 **(ip= 10.151.252.191)**
+    - Direktori ketika server belum menerima file
+
     - server menunggu client
       ![1a_server menunggu client](https://user-images.githubusercontent.com/36990780/75626323-386eef00-5bf9-11ea-9fa6-4002444f32e8.jpg)
     - client mengirimkan paket ke client 
