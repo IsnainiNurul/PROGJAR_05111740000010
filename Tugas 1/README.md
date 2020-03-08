@@ -1,6 +1,7 @@
 # TUGAS 1
 ### Isnaini Nurul KurniaSari-05111740000010
-### Keterangan : Disini PC saya sebagai client memiliki IP address yaitu 10.151.252.159 dan PC teman saya sebagai server dengan IP address yaitu 10.151.252.191 (screenshoot diambil menggunakan terminal dan diambil dari masing-masing PC secara bergantian)
+### KETERANGAN : 
+### Disini PC saya sebagai client memiliki IP address yaitu 10.151.252.159 dan PC teman saya sebagai server dengan IP address yaitu 10.151.252.191 (screenshoot diambil menggunakan terminal dan diambil dari masing-masing PC secara bergantian)
 
 * Menjalankan server server di 3 server yang berbeda dengan ip lain **(10.151.252.191)**, dengan masing-masing client connect ke server tersebut:
   
