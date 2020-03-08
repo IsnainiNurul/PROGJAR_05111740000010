@@ -32,37 +32,25 @@
 Soal : MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)      
 * Server dijalankan di komputer yang berbeda, client mencoba untuk mengirimkan file :
 * Kondisi awal server di komputer yang berbeda dengan port 31001 **(ip= 10.151.252.191)**
-          <img width="427" alt="gambar1" src="https://user-images.githubusercontent.com/36990780/75674556-e6d96980-5cb7-11ea-8419-ff42f2112486.png">
-* Direktori ketika server belum menerima file
-          <img width="427" alt="gambar1" src="https://user-images.githubusercontent.com/36990780/75673920-a3323000-5cb6-11ea-83de-4393112f5d22.png">
 * server menunggu client
-          ![1a_server menunggu client](https://user-images.githubusercontent.com/36990780/75626323-386eef00-5bf9-11ea-9fa6-4002444f32e8.jpg)
+         <img width="411" alt="b" src="https://user-images.githubusercontent.com/36990780/76166172-1e9c5180-618f-11ea-9c84-6aa0258f8f06.png">
 * client mengirimkan paket ke client 
       ![1a_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75626347-7ec44e00-5bf9-11ea-85e1-b867390da108.jpg)
 * server berhasil menerima paket dari client
       ![1a_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75626347-7ec44e00-5bf9-11ea-85e1-b867390da108.jpg)
-* Direktori ketika server sudah menerima file
-    <img width="436" alt="gambar2" src="https://user-images.githubusercontent.com/36990780/75681581-7423ba80-5cc6-11ea-9dc4-96b030b5f541.png">
+">
       
 ### TUGAS 1B ###
 Soal : MODIFIKASILAH program server.py agar dapat mengirimkan MENTRANSFER FILE yang di request oleh client (letakkan program modifikasi di direktori tugas1b)
 * Server dijalankan di komputer yang berbeda, client mencoba untuk mengirimkan file :  
 * Kondisi awal server di komputer yang berbeda dengan port 31001 **(ip= 10.151.252.191)**
-* Direktori ketika server belum menerima file
-      
-    <img width="427" alt="gambar1" src="https://user-images.githubusercontent.com/36990780/75681772-d4b2f780-5cc6-11ea-837c-7d26434f1185.png">
 * server menunggu client
-      ![1b_server menunggu client](https://user-images.githubusercontent.com/36990780/75674491-b5609e00-5cb7-11ea-8a2f-140a3113c081.jpg)
+      <img width="335" alt="c" src="https://user-images.githubusercontent.com/36990780/76166190-4a1f3c00-618f-11ea-881c-4f1b6fcd1602.png">
 * client mengirimkan paket ke client
       ![1b_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75674231-41be9100-5cb7-11ea-9132-41e9a2d950d9.jpg)
 * server berhasil menerima paket dari client
       ![1b_server menerima paket ke client](https://user-images.githubusercontent.com/36990780/75674261-4daa5300-5cb7-11ea-909f-7a2fb3317fee.jpg)
-* Direktori ketika server sudah menerima file
-     
-     <img width="436" alt="gambar2" src="https://user-images.githubusercontent.com/36990780/75674427-9235ee80-5cb7-11ea-84d7-d5b7ba6d04e3.png">
 
-       
-      
    
   
     
