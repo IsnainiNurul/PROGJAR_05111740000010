@@ -49,7 +49,7 @@ Soal : MODIFIKASILAH program server.py agar dapat mengirimkan MENTRANSFER FILE y
 * client mengirimkan paket ke client
       ![1b_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75674231-41be9100-5cb7-11ea-9132-41e9a2d950d9.jpg)
 * server berhasil menerima paket dari client
-      ![1b_server menerima paket ke client](https://user-images.githubusercontent.com/36990780/75674261-4daa5300-5cb7-11ea-909f-7a2fb3317fee.jpg)
+      <img width="397" alt="d" src="https://user-images.githubusercontent.com/36990780/76166301-25779400-6190-11ea-9151-931e63613763.png">
 
    
   
