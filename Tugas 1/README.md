@@ -32,9 +32,9 @@
 Soal : MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)      
 * Server dijalankan di komputer yang berbeda, client mencoba untuk mengirimkan file :
 * Kondisi awal server di komputer yang berbeda dengan port 31001 **(ip= 10.151.252.191)**
-* server menunggu client
-         
-      <img width="411" alt="b" src="https://user-images.githubusercontent.com/36990780/76166172-1e9c5180-618f-11ea-9c84-6aa0258f8f06.png">
+* server menunggu client 
+      
+     <img width="411" alt="b" src="https://user-images.githubusercontent.com/36990780/76166172-1e9c5180-618f-11ea-9c84-6aa0258f8f06.png">
 * client mengirimkan paket ke client 
       ![1a_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75626347-7ec44e00-5bf9-11ea-85e1-b867390da108.jpg)
 * server berhasil menerima paket dari client
@@ -51,8 +51,8 @@ Soal : MODIFIKASILAH program server.py agar dapat mengirimkan MENTRANSFER FILE y
 * client mengirimkan paket ke client
       ![1b_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75674231-41be9100-5cb7-11ea-9132-41e9a2d950d9.jpg)
 * server berhasil menerima paket dari client
-      
-      <img width="397" alt="d" src="https://user-images.githubusercontent.com/36990780/76166301-25779400-6190-11ea-9151-931e63613763.png">
+
+    <img width="397" alt="d" src="https://user-images.githubusercontent.com/36990780/76166301-25779400-6190-11ea-9151-931e63613763.png">
 
    
   
