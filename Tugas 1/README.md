@@ -35,6 +35,8 @@
 Soal : MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)      
 * Server dijalankan di komputer yang berbeda, client mencoba untuk mengirimkan file :
 * Kondisi awal server di komputer yang berbeda dengan port 31001 **(ip= 10.151.252.191)**
+* Direktori ketika server belum menerima file
+    <img width="427" alt="gambar1" src="https://user-images.githubusercontent.com/36990780/76206786-362b1700-622f-11ea-92c5-1db7dd9b4de4.png">
 * server menunggu client 
       
      <img width="411" alt="b" src="https://user-images.githubusercontent.com/36990780/76166172-1e9c5180-618f-11ea-9c84-6aa0258f8f06.png">
@@ -42,12 +44,15 @@ Soal : MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file
       ![1a_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75626347-7ec44e00-5bf9-11ea-85e1-b867390da108.jpg)
 * server berhasil menerima paket dari client
       ![1a_client mengirim paket ke server](https://user-images.githubusercontent.com/36990780/75626347-7ec44e00-5bf9-11ea-85e1-b867390da108.jpg)
-">
+* Direktori ketika server sudah menerima file, (file nya received_file.txt)
+      <img width="436" alt="gambar2" src="https://user-images.githubusercontent.com/36990780/76207055-ab96e780-622f-11ea-8ce3-72d65702f44a.png">
       
 ### TUGAS 1B ###
 Soal : MODIFIKASILAH program server.py agar dapat mengirimkan MENTRANSFER FILE yang di request oleh client (letakkan program modifikasi di direktori tugas1b)
 * Server dijalankan di komputer yang berbeda, client mencoba untuk mengirimkan file :  
   Kondisi awal server di komputer yang berbeda dengan port 31001 **(ip= 10.151.252.191)**
+* Direktori ketika server belum menerima file 
+    <img width="427" alt="gambar1" src="https://user-images.githubusercontent.com/36990780/76207179-dc771c80-622f-11ea-9f84-0f09e92f1267.png">
 * server menunggu client
       
      <img width="335" alt="c" src="https://user-images.githubusercontent.com/36990780/76166190-4a1f3c00-618f-11ea-881c-4f1b6fcd1602.png">
@@ -56,7 +61,8 @@ Soal : MODIFIKASILAH program server.py agar dapat mengirimkan MENTRANSFER FILE y
 * server berhasil menerima paket dari client
 
     <img width="397" alt="d" src="https://user-images.githubusercontent.com/36990780/76166301-25779400-6190-11ea-9151-931e63613763.png">
-
+* Direktori ketika server sudah menerima file, (file nya received_file.txt)
+    <img width="436" alt="gambar2" src="https://user-images.githubusercontent.com/36990780/76207246-fd3f7200-622f-11ea-94cf-ae645cc36919.png">
    
   
     
