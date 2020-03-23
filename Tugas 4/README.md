@@ -35,7 +35,20 @@
   <img width="832" alt="sebelum download" src="https://user-images.githubusercontent.com/36990780/77334567-9190f500-6d57-11ea-9525-358b1b65f8ce.PNG">
   
   Tampilan setelah file berhasil di download :
+  
   <img width="850" alt="berhasil download" src="https://user-images.githubusercontent.com/36990780/77334742-ce5cec00-6d57-11ea-9108-3e8ffcc77c00.PNG">
+  
+  Hasil file yang berhasil di download :
+  
+  <img width="745" alt="berhasil download file" src="https://user-images.githubusercontent.com/36990780/77335190-6eb31080-6d58-11ea-8ea8-8280eb430b47.PNG">
+  
+* Melihat Isi File (dengan menjalankan clientlist.py :
+  Menjalankan clientlist.py yang didalamnya telah memiliki "list" dan terdapat output dalam bentuk Json untuk menyimpan dan mengirim data secara terstruktur sehingga membuat struktur data data menjadi lebih kompleks 
+  
+  <img width="822" alt="clientlist" src="https://user-images.githubusercontent.com/36990780/77336012-8939b980-6d59-11ea-961b-33b180467255.PNG">
+
+  
+  
   
 
 
