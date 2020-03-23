@@ -13,15 +13,15 @@
   Upload File corona.jpg dengan cara menjalankan clientupload.py sebagai berikut :
   <img width="919" alt="upload_file" src="https://user-images.githubusercontent.com/36990780/77333168-9e144e00-6d55-11ea-8644-6d1c9e548547.PNG">
   
-  tampilan sebelum file diupload :
+  Tampilan sebelum file diupload :
   
   <img width="527" alt="sebelum uploadfile" src="https://user-images.githubusercontent.com/36990780/77333368-e59ada00-6d55-11ea-8060-c9d34eecab11.PNG">
   
-  tampilan setelah file diupload :
+  Tampilan setelah file diupload :
   
   <img width="524" alt="setelah file diupload" src="https://user-images.githubusercontent.com/36990780/77333633-4de9bb80-6d56-11ea-9acf-5614033f028b.PNG">
   
-  hasil file yang berhasil diupload :
+  Hasil file yang berhasil diupload :
   
   <img width="514" alt="hasil upload" src="https://user-images.githubusercontent.com/36990780/77333841-973a0b00-6d56-11ea-890d-0e5dfdd7b53c.PNG">
   
@@ -30,7 +30,7 @@
   Download File coronaa.pdf dengan cara menjalankan clientdownload.py sebagai berikut :
   <img width="883" alt="clientdownload" src="https://user-images.githubusercontent.com/36990780/77334332-39f28980-6d57-11ea-85b9-be1c24b12b40.PNG">
   
-  Tampilan sebelum file di download :
+  **Tampilan sebelum file di download :
   
   <img width="832" alt="sebelum download" src="https://user-images.githubusercontent.com/36990780/77334567-9190f500-6d57-11ea-9525-358b1b65f8ce.PNG">
   
@@ -48,10 +48,3 @@
   <img width="822" alt="clientlist" src="https://user-images.githubusercontent.com/36990780/77336012-8939b980-6d59-11ea-961b-33b180467255.PNG">
 
   
-  
-  
-
-
-
-
-
