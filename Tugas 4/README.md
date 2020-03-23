@@ -1,6 +1,6 @@
 # TUGAS 4
 ### Isnaini Nurul KurniaSari-05111740000010
-* DOKUMENTASI UNTUK PROTOKOL :
+* **DOKUMENTASI UNTUK PROTOKOL :**
 
   <img width="366" alt="format" src="https://user-images.githubusercontent.com/36990780/77332525-bcc61500-6d54-11ea-834d-c109fab0f2cb.PNG">
 
@@ -8,7 +8,7 @@
 
   <img width="838" alt="jalankan_server - Copy" src="https://user-images.githubusercontent.com/36990780/77332778-13335380-6d55-11ea-9f85-859593aa213b.PNG">
   
-* Mengupload File
+**Mengupload File**
 
   Upload File corona.jpg dengan cara menjalankan clientupload.py sebagai berikut :
   <img width="919" alt="upload_file" src="https://user-images.githubusercontent.com/36990780/77333168-9e144e00-6d55-11ea-8644-6d1c9e548547.PNG">
@@ -25,12 +25,12 @@
   
   <img width="514" alt="hasil upload" src="https://user-images.githubusercontent.com/36990780/77333841-973a0b00-6d56-11ea-890d-0e5dfdd7b53c.PNG">
   
-* Mendownload File 
+**Mendownload File**
   
   Download File coronaa.pdf dengan cara menjalankan clientdownload.py sebagai berikut :
   <img width="883" alt="clientdownload" src="https://user-images.githubusercontent.com/36990780/77334332-39f28980-6d57-11ea-85b9-be1c24b12b40.PNG">
   
-  **Tampilan sebelum file di download :
+  Tampilan sebelum file di download :
   
   <img width="832" alt="sebelum download" src="https://user-images.githubusercontent.com/36990780/77334567-9190f500-6d57-11ea-9525-358b1b65f8ce.PNG">
   
