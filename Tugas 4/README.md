@@ -1,6 +1,6 @@
 # TUGAS 4
 ### Isnaini Nurul KurniaSari-05111740000010
-* **DOKUMENTASI UNTUK PROTOKOL :**
+ **DOKUMENTASI UNTUK PROTOKOL :**
 
   <img width="366" alt="format" src="https://user-images.githubusercontent.com/36990780/77332525-bcc61500-6d54-11ea-834d-c109fab0f2cb.PNG">
 
@@ -22,7 +22,6 @@
   <img width="524" alt="setelah file diupload" src="https://user-images.githubusercontent.com/36990780/77333633-4de9bb80-6d56-11ea-9acf-5614033f028b.PNG">
   
   Hasil file yang berhasil diupload :
-  
   <img width="514" alt="hasil upload" src="https://user-images.githubusercontent.com/36990780/77333841-973a0b00-6d56-11ea-890d-0e5dfdd7b53c.PNG">
   
 **Mendownload File**
