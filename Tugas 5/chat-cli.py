@@ -31,6 +31,8 @@ class ChatClient:
             elif (command=='list'):
                 return self.list()
             elif(command=='logout'):
+                if (self.tokenid == ""):
+                    return "ERROR, Maaf Anda belum login, Silahkan Login dahulu"
                 return self.logout()
             else:
                 return "*Maaf, command yang anda masukkan tidak benar"
@@ -45,7 +47,7 @@ class ChatClient:
                 data = self.sock.recv(64)
                 print("diterima dari server",data)
                 if (data):
-                    receivemsg = "{}{}" . format(receivemsg,data.decode())  
+                    receivemsg = "{}{}" . format(receivemsg,data.decode())
                     if receivemsg[-4:]=='\r\n\r\n':
                         print("end of string")
                         return json.loads(receivemsg)
@@ -87,19 +89,24 @@ class ChatClient:
         if (self.tokenid==""):
             return "Error, not authorized"
         string="list {} \r\n".format(self.tokenid)
-
         result = self.sendstring(string)
-        print("coba")
         if result['status']=='OK':
-            return "{}".format(json.dumps(result['list']))
+            print("User yang sedang aktif")
+            return "{}".format(json.dumps(result['messages']))
         else:
             return "Error, {}".format(result['message'])
 
     def logout(self):
         if (self.tokenid == ""):
             return "WARNING! ERROR silahkan login terlebih dahulu"
-        self.tokenid = ""
-        return "Terimakasih telah menggunakan Chat, Logout telah Berhasil"
+        string = "logout {} \r\n".format(self.tokenid)
+        result = self.sendstring(string)
+        if result['status'] == 'OK':
+            self.tokenid = ""
+            return "{}".format(json.dumps(result['messages']))
+        else:
+            return "Error, {}".format(result['message'])
+
 
 if __name__=="__main__":
     cc = ChatClient()
