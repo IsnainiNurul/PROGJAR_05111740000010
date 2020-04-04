@@ -41,10 +41,11 @@ class Chat:
                 return self.get_inbox(username)
             elif (command == 'list'):
                 sessionid = j[1].strip()
+                print("uppppp")
                 return self.get_list()
             elif (command == 'logout'):
                 sessionid = j[1].strip()
-                return self.get_logout()
+                return self.logout_user(sessionid)
             else:
                 return {'status': 'ERROR', 'message': '**Protocol Tidak Benar'}
         except KeyError:
@@ -101,9 +102,22 @@ class Chat:
         return {'status': 'OK', 'messages': msgs}
 
     def get_list(self):
-        return {'status': 'OK', 'list': list(self.users.keys())}
+        tokenid = list(self.sessions.keys())
+        listpengguna = ""
+        for x in tokenid:
+            if self.sessions[x]['username'] in listpengguna:
+                listpengguna = listpengguna
+            else:
+                listpengguna = listpengguna+ self.sessions[x]['username'] + ','
+        #print(list)
+        return {'status': 'OK', 'messages': listpengguna}
+
+    def logout_user(self, sessionid):
+        del self.sessions[sessionid]
+        return {'status': 'OK', 'messages': 'logout telah berhasil, Terimakasih telah menggunakan Chat :)'}
 
 if __name__ == "__main__":
     j = Chat()
     print(j.get_list())
-    
+    print(j.proses("auth messi surabaya"))
+    print(j.proses("list "))
