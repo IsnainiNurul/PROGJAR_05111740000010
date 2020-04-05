@@ -7,4 +7,6 @@ Tugas 5:
     b. Melogout user yang sedang aktif
 4. Format dokumentasi : Buatlah dokumen di msword online, kirimkan link dokumen tersebut di ms teams
 
+(NB: Laporan jawaban berupa pdf)
+
 
