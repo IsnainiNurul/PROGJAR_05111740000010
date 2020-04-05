@@ -42,7 +42,7 @@ class Chat:
             elif (command == 'list'):
                 sessionid = j[1].strip()
                 print("uppppp")
-                return self.get_list()
+                return self.get_list(sessionid)
             elif (command == 'logout'):
                 sessionid = j[1].strip()
                 return self.logout_user(sessionid)
@@ -101,7 +101,9 @@ class Chat:
                 msgs[users].append(s_fr['incoming'][users].get_nowait())
         return {'status': 'OK', 'messages': msgs}
 
-    def get_list(self):
+    def get_list(self,sessionid):
+        if (sessionid not in self.sessions):
+            return {'status': 'ERROR', 'message': 'Session Tidak Ditemukan'}
         tokenid = list(self.sessions.keys())
         listpengguna = ""
         for x in tokenid:
