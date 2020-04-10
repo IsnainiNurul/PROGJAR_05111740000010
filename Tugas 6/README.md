@@ -1,4 +1,4 @@
-**Tugas 6**
+<h1>Tugas 6</h1>
 - Membuat multithread server, dengan membuka port 10001 di ip adress 127.0.0.1, dengan ketentuan yaitu :
 - Dapat melayani request dalam bentuk string seperti (GET spasi / spasi HTTP/1.0)
 - Tanda akhir request adalah "\r\n\r\n"
