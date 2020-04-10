@@ -2,7 +2,7 @@
 - Membuat multithread server, dengan membuka port 10001 di ip adress 127.0.0.1, dengan ketentuan yaitu :
 - Dapat melayani request dalam bentuk string seperti (GET spasi / spasi HTTP/1.0)
 - Tanda akhir request adalah "\r\n\r\n"
-- Jika tanda akhir request diterima, maka balas dengan string <h1>SERVER HTTP</h1>
+- Jika tanda akhir request diterima, maka balas dengan string < h1 >SERVER HTTP< /h1 >
 - Mencoba dengan telnet pada port 10001, dengan cara mengirimkan string GET<spasi>/<spasi>HTTP/1.0<enter><enter> Harusnya mereply dengan yang sama pada point nomor 4
 - Membuka chrome web browser, aktifkan developer mode, bagian network
 - Membuka alamat http://127.0.0.1:10001
