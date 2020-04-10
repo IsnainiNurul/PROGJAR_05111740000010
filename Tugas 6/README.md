@@ -7,7 +7,7 @@
 - Membuka chrome web browser, aktifkan developer mode, bagian network
 - Membuka alamat http://127.0.0.1:10001
   
-  Penjelasan :
+  **Penjelasan :**
 - Menjalankan program server_thread_http.py
   ![server_thread_py](https://user-images.githubusercontent.com/36990780/79015124-618a8400-7b96-11ea-834a-4973269acf6e.png)
 - Menjalankan program http.py
