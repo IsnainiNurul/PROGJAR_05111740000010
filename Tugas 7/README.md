@@ -1,4 +1,5 @@
 **TUGAS 7**
+
 **Performance Test sederhana hanya bisa dilakukan di linux/unix based**
 - Menggunakan apachebenchark, dengan command ab
 - Mengetest server kita dengan : ab -n <jumlahrequest> -c <concurecy> http://127.0.0.1:10001/
