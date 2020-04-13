@@ -43,10 +43,10 @@
 - ab -n 50 -c 50 http://127.0.0.1:10001/
   ![2d](https://user-images.githubusercontent.com/36990780/79158206-1ecbe480-7e00-11ea-8980-eec63f5c2a26.png)
 - ab -n 100 -c 1 http://127.0.0.1:10001/
-  ![3](https://user-images.githubusercontent.com/36990780/79158454-926df180-7e00-11ea-8e32-bec9ad6440ee.png)
-- ab -n 100 -c 1 http://127.0.0.1:10001/
   ![3a](https://user-images.githubusercontent.com/36990780/79158218-212e3e80-7e00-11ea-8de5-8c99c4c62cd3.png)
-- ab -n 100 -c 50 http://127.0.0.1:10001/
+- ab -n 100 -c 10 http://127.0.0.1:10001/
   ![3b](https://user-images.githubusercontent.com/36990780/79158220-225f6b80-7e00-11ea-9d1f-c88934a0405f.png)
+- ab -n 100 -c 50 http://127.0.0.1:10001/
+  ![3](https://user-images.githubusercontent.com/36990780/79158454-926df180-7e00-11ea-8e32-bec9ad6440ee.png)
 - ab -n 100 -c 100 http://127.0.0.1:10001/
   ![3d](https://user-images.githubusercontent.com/36990780/79158224-23909880-7e00-11ea-977e-2d17d0452aa6.png)
