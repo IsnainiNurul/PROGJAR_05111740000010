@@ -38,7 +38,7 @@
   ![2a](https://user-images.githubusercontent.com/36990780/79158198-1bd0f400-7e00-11ea-85a5-53606f6336b4.png)
 - ab -n 50 -c 10 http://127.0.0.1:10001/
   ![2b](https://user-images.githubusercontent.com/36990780/79158200-1d022100-7e00-11ea-8f42-3a12c2f4e97d.png)
-- ab -n 50 -c 10 http://127.0.0.1:10001/
+- ab -n 50 -c 30 http://127.0.0.1:10001/
   ![2c](https://user-images.githubusercontent.com/36990780/79158203-1e334e00-7e00-11ea-91d2-a1aaadad1b10.png)
 - ab -n 50 -c 50 http://127.0.0.1:10001/
   ![2d](https://user-images.githubusercontent.com/36990780/79158206-1ecbe480-7e00-11ea-8980-eec63f5c2a26.png)
@@ -50,11 +50,3 @@
   ![3b](https://user-images.githubusercontent.com/36990780/79158220-225f6b80-7e00-11ea-9d1f-c88934a0405f.png)
 - ab -n 100 -c 100 http://127.0.0.1:10001/
   ![3d](https://user-images.githubusercontent.com/36990780/79158224-23909880-7e00-11ea-977e-2d17d0452aa6.png)
-
-- Sehingga diperoleh untuk hasil performance test 2 :
-  ![2](https://user-images.githubusercontent.com/36990780/79036275-f1f5b280-7bf0-11ea-90ca-780186ebd56b.png)
-  ![2_lanjutan](https://user-images.githubusercontent.com/36990780/79036279-f9b55700-7bf0-11ea-8961-dbb575c16dc8.png)
-  
-- Sehingga diperoleh untuk hasil performance test 3 :
-  ![3](https://user-images.githubusercontent.com/36990780/79036285-0afe6380-7bf1-11ea-9dbb-6c60d5e31ea1.png)
-  ![3_lanjutan](https://user-images.githubusercontent.com/36990780/79036289-13569e80-7bf1-11ea-9270-8f88f6395a15.png)
