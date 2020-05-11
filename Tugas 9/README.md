@@ -68,8 +68,7 @@
     </tr>
    </table>
    
-   
-    *Berikut ini adalah hasil Performance Test untuk Server Async*
+   *Berikut ini adalah hasil Performance Test untuk Server Async*
  <table>
  	  <tr>
  		  <td> Nomor </td>
