@@ -11,9 +11,9 @@
  `python3 lb.py`
     ![gambar2](https://user-images.githubusercontent.com/36990780/81701888-c9353700-9494-11ea-82d6-af2d604b11b0.png)
  - Mengakses http://localhost:44444/page.html pada browser 
- ![gambar3](https://user-images.githubusercontent.com/36990780/81701891-c9cdcd80-9494-11ea-9733-7430ee0c6182.png)
+    ![gambar3](https://user-images.githubusercontent.com/36990780/81701891-c9cdcd80-9494-11ea-9733-7430ee0c6182.png)
  - Mengecek dan melihat proses di log program bahwa setiap request akan dilayani oleh backend secara bergantian
-<img width="468" alt="gambar4" src="https://user-images.githubusercontent.com/36990780/81702770-e7e7fd80-9495-11ea-8a0b-d31b5fb2db98.png">
+    <img width="468" alt="gambar4" src="https://user-images.githubusercontent.com/36990780/81702770-e7e7fd80-9495-11ea-8a0b-d31b5fb2db98.png">
 
  - Melakukan performance test seperti tugas 9, dan membandingkan penggunaan antara load balancer dengan async_server dengan server_thread_http pada folder progjar Tugas5 <br> Dengan parameter sebagai berikut : <br> Jumlah request 	:  1000 <br> Konkurensi	:  1,50, 100,500,1000 <br>
  
