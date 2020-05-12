@@ -3,6 +3,32 @@
  <br>
  <br>
  
+ - Pull Update Terbaru
+ <br>
+ - Menjalankan async_server.py dengan port 9002, 9003, 9004, 9005 dengan menggunkan WSL.
+ <br>
+ dengan perintah :
+ “python3 async_server.py 9002 & python3 async_server.py 9003 & python3 async_server.py 9004 & python3 async_server.py 9005 &”
+ [gambar 1]
+ <br>
+ - Menjalankan file lb.py dan menjalankan di port 44444
+ <br> 
+ dengan perintah :
+ “python3 lb.py”
+ [gambar_2]
+ <br>
+ - Mengakses http://localhost:44444/page.html pada browser
+ [gambar3]
+ - Mengecek dan melihat proses di log program bahwa setiap request akan dilayani oleh backend secara bergantian
+ [gambar4]
+ - Melakukan performance test seperti tugas 9, dan membandingkan penggunaan antara load balancer dengan async_server dengan server_thread_http pada folder progjar Tugas5
+Dengan parameter sebagai berikut :
+<br>
+Jumlah request 	:  1000
+<br>
+Konkurensi	:  1,50, 100,500,1000
+<br>
+ 
  **Berikut ini adalah hasil Performance Test untuk Asyncronus Server :**
  <table>
  	  <tr>
