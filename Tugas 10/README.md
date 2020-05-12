@@ -157,60 +157,61 @@
  	  <tr>
  		  <td> 1. </td>
       <td> 1 </td>
- 		  <td>   seconds </td>
+ 		  <td> 1.579  seconds </td>
       <td> 1000 </td>
       <td> 0 </td>
-      <td>  122000 bytes </td>
-      <td> [#/sec] (mean) </td>
-      <td>  [ms] </td>
-      <td>  [Kbytes/sec] </td>
+      <td> 0 bytes </td>
+      <td> 633.48 [#/sec] (mean) </td>
+      <td> 1.579 [ms] </td>
+      <td> 0.00 [Kbytes/sec] </td>
  	  </tr>
     <tr>
       <td> 2. </td>
       <td> 50 </td>
-      <td>  seconds </td>
+      <td> 1.580 seconds </td>
       <td> 1000 </td>
       <td> 0 </td>
-      <td> 122000 bytes </td>
-      <td>  [#/sec] (mean)</td>
-      <td>  [ms] </td>
-      <td>  [Kbytes/sec] </td>
+      <td> 0 bytes </td>
+      <td> 632.86 [#/sec](mean)</td>
+      <td> 1.580 [ms] </td>
+      <td> 0.00 [Kbytes/sec] </td>
     </tr>
      <tr>
       <td> 3.  </td>
       <td> 100 </td>
-      <td> seconds </td>
+      <td> 1.614 seconds </td>
       <td> 1000 </td>
       <td> 0 </td>
-      <td> 122000 bytes</td>
-      <td>   [#/sec] (mean) </td>
-      <td>  [ms] </td>
-      <td>    [Kbytes/sec] </td>
+      <td> 0 bytes</td>
+      <td> 619.41[#/sec] (mean) </td>
+      <td> 1.614 [ms] </td>
+      <td> 0.00 [Kbytes/sec] </td>
     </tr>
      <tr>
       <td> 4.  </td>
       <td> 500 </td>
-      <td>  seconds </td>
+      <td> 2.285 seconds </td>
       <td> 1000 </td>
       <td> 0 </td>
-      <td> 122000 bytes</td>
-      <td>    [#/sec] (mean) </td>
-      <td> [ms] </td>
-      <td>  [Kbytes/sec] </td>
+      <td> 0 bytes</td>
+      <td> 437.65 [#/sec] (mean) </td>
+      <td> 2.285 [ms] </td>
+      <td> 0.00 [Kbytes/sec] </td>
     </tr>
       <tr>
       <td> 5.  </td>
       <td> 1000 </td>
-      <td>  seconds </td>
+      <td> 1.698 seconds </td>
       <td> 1000 </td>
       <td> 0 </td>
-      <td> 122000 bytes</td>
-      <td>  [#/sec] (mean) </td>
-      <td>  [ms] </td>
-      <td>  [Kbytes/sec] </td>
+      <td> 0 bytes</td>
+      <td> 558.81 [#/sec] (mean) </td>
+      <td> 1.698 [ms] </td>
+      <td> 0.00 [Kbytes/sec] </td>
     </tr>
    </table>
   
    **Kesimpulan**
+   Dari ketiga table performance test diatas, dapat kita lihat bahwa asyncronus server yang menggunakan load balancer memproses lebih cepat jika dibandingkan dengan asyncronus server biasa dan multithread server yang menandakan bahwa performa asyncronus server lebih baik dibandingkan dengan asyncronus biasa dan multithread server. Load balancer bertugas untuk mendistribusikan request ke backend yag didefinisikan di class BackendList. Di dalam load balancer terdapat fungsi getserver pada class BackendList yang akan membuat backend dipilih secara round robin atau bergantian secara fair sehingga setiap request akan dilayani oleh backend yang bergantian. 
    
    
