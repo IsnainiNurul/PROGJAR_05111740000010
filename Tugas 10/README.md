@@ -17,7 +17,7 @@
 
  - Melakukan performance test seperti tugas 9, dan membandingkan penggunaan antara load balancer dengan async_server dengan server_thread_http pada folder progjar Tugas5 <br> Dengan parameter sebagai berikut : <br> Jumlah request 	:  1000 <br> Konkurensi	:  1,50, 100,500,1000 <br>
  
- **Berikut ini adalah hasil Performance Test untuk Asyncronus Server :**
+ - **Berikut ini adalah hasil Performance Test untuk Asyncronus Server :**
  <table>
  	  <tr>
  		  <td> Nomor </td>
@@ -89,7 +89,7 @@
    <br>
    <br>
    
-**Berikut ini adalah hasil Performance Test untuk Multithread Server :**
+- **Berikut ini adalah hasil Performance Test untuk Multithread Server :**
  <table>
  	  <tr>
  		  <td> Nomor </td>
@@ -163,7 +163,7 @@
    
    
   
-  **Berikut ini adalah hasil Performance Test untuk Asyncronus Server Dengan Load Balancer :**
+ - **Berikut ini adalah hasil Performance Test untuk Asyncronus Server Dengan Load Balancer :**
  <table>
  	  <tr>
  		  <td> Nomor </td>
