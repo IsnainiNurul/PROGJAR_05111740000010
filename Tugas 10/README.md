@@ -1,4 +1,4 @@
- **Berikut ini adalah Laporan Tugas 10 :**
+ **Laporan Tugas 10 :**
   <a href="https://github.com/IsnainiNurul/PROGJAR_05111740000010/blob/master/Tugas%2010/Laporan%20Tugas%2010_Isnaini%20Nurul%20KurniaSari_05111740000010.pdf"> Laporan Tugas 10 Isnaini 05111740000010</a> 
  <br>
  <br>
