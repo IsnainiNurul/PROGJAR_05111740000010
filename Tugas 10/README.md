@@ -75,8 +75,7 @@
    
    
    
-  
-  **Berikut ini adalah hasil Performance Test untuk Multithread Server :**
+**Berikut ini adalah hasil Performance Test untuk Multithread Server :**
  <table>
  	  <tr>
  		  <td> Nomor </td>
@@ -149,7 +148,7 @@
    
    
   
-  **Berikut ini adalah hasil Performance Test untuk Asyncronus Server Dengan Load Balancer :**
+**Berikut ini adalah hasil Performance Test untuk Asyncronus Server Dengan Load Balancer :**
  <table>
  	  <tr>
  		  <td> Nomor </td>
