@@ -139,4 +139,5 @@
    </table>
    
    **Kesimpulan**
+   
    Dapat dlihat pada hasil performance test pada kedua macam tabel tersebut, server asynchronous lebih memiliki peforma yang lebih baik jika dibandingkan dengan server thread, maka dari itu server asynchronous bekerja lebih cepat jika dibandingkan dengan server thread.
