@@ -1,6 +1,7 @@
  **Berikut ini adalah Laporan Tugas 10 :**
   <a href="https://github.com/IsnainiNurul/PROGJAR_05111740000010/blob/master/Tugas%2010/Laporan%20Tugas%2010_Isnaini%20Nurul%20KurniaSari_05111740000010.pdf"> Laporan Tugas 10 Isnaini 05111740000010</a> 
- <br> 
+ <br>
+ <br>
  
  **Berikut ini adalah hasil Performance Test untuk Asyncronus Server :**
  <table>
@@ -71,6 +72,7 @@
       <td>  1.89   [Kbytes/sec] </td>
     </tr>
    </table>
+   <br>
    <br>
    
 **Berikut ini adalah hasil Performance Test untuk Multithread Server :**
@@ -143,6 +145,7 @@
     </tr>
    </table>
   <br> 
+  <br>
    
    
   
@@ -215,6 +218,7 @@
       <td> 0.00 [Kbytes/sec] </td>
     </tr>
    </table>
+  <br>
   <br>
   
    
