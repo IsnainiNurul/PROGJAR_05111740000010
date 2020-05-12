@@ -1,7 +1,7 @@
  *Berikut ini adalah Laporan Tugas 10 :*
   <a href="https://github.com/IsnainiNurul/PROGJAR_05111740000010/blob/master/Tugas%209/Laporan%20Tugas%209_Isnaini%20Nurul%20KurniaSari_05111740000010.pdf"> Laporan Tugas 9 Isnaini 05111740000010</a> 
 
- *Berikut ini adalah hasil Performance Test untuk Server Async*
+ *Berikut ini adalah hasil Performance Test untuk Asyncronus Server*
  <table>
  	  <tr>
  		  <td> Nomor </td>
@@ -71,7 +71,7 @@
     </tr>
    </table>
    
-   *Berikut ini adalah hasil Performance Test untuk Server Thread*
+   *Berikut ini adalah hasil Performance Test untuk Multithread Server*
  <table>
  	  <tr>
  		  <td> Nomor </td>
@@ -141,7 +141,76 @@
     </tr>
    </table>
    
+   *Berikut ini adalah hasil Performance Test untuk Asyncronus Server Dengan Load Balancer*
+ <table>
+ 	  <tr>
+ 		  <td> Nomor </td>
+ 		  <td> Concurrency level </td>
+      <td> Time taken for test </td>
+      <td> Complete request </td>
+      <td> Failed request </td>
+      <td> Total transferred </td>
+      <td> Request per second </td>
+      <td> Time per request </td>
+      <td> Transfer rate </td>
+ 	  </tr>
+ 	  <tr>
+ 		  <td> 1. </td>
+      <td> 1 </td>
+ 		  <td>   seconds </td>
+      <td> 1000 </td>
+      <td> 0 </td>
+      <td>  122000 bytes </td>
+      <td> [#/sec] (mean) </td>
+      <td>  [ms] </td>
+      <td>  [Kbytes/sec] </td>
+ 	  </tr>
+    <tr>
+      <td> 2. </td>
+      <td> 50 </td>
+      <td>  seconds </td>
+      <td> 1000 </td>
+      <td> 0 </td>
+      <td> 122000 bytes </td>
+      <td>  [#/sec] (mean)</td>
+      <td>  [ms] </td>
+      <td>  [Kbytes/sec] </td>
+    </tr>
+     <tr>
+      <td> 3.  </td>
+      <td> 100 </td>
+      <td> seconds </td>
+      <td> 1000 </td>
+      <td> 0 </td>
+      <td> 122000 bytes</td>
+      <td>   [#/sec] (mean) </td>
+      <td>  [ms] </td>
+      <td>    [Kbytes/sec] </td>
+    </tr>
+     <tr>
+      <td> 4.  </td>
+      <td> 500 </td>
+      <td>  seconds </td>
+      <td> 1000 </td>
+      <td> 0 </td>
+      <td> 122000 bytes</td>
+      <td>    [#/sec] (mean) </td>
+      <td> [ms] </td>
+      <td>  [Kbytes/sec] </td>
+    </tr>
+      <tr>
+      <td> 5.  </td>
+      <td> 1000 </td>
+      <td>  seconds </td>
+      <td> 1000 </td>
+      <td> 0 </td>
+      <td> 122000 bytes</td>
+      <td>  [#/sec] (mean) </td>
+      <td>  [ms] </td>
+      <td>  [Kbytes/sec] </td>
+    </tr>
+   </table>
+  
    **Kesimpulan**
    
-   Dapat dlihat pada hasil performance test pada kedua macam tabel tersebut, server asynchronous lebih memiliki peforma yang lebih baik jika dibandingkan dengan server thread, maka dari itu server asynchronous bekerja lebih cepat jika dibandingkan dengan server thread.
-
+   
