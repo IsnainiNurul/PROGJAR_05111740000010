@@ -1,9 +1,8 @@
  **Berikut ini adalah Laporan Tugas 10 :**
   <a href="https://github.com/IsnainiNurul/PROGJAR_05111740000010/blob/master/Tugas%2010/Laporan%20Tugas%2010_Isnaini%20Nurul%20KurniaSari_05111740000010.pdf"> Laporan Tugas 10 Isnaini 05111740000010</a> 
-  
-
- <br>
- **Berikut ini adalah hasil Performance Test untuk Asyncronus Server**
+ <br> 
+ 
+ **Berikut ini adalah hasil Performance Test untuk Asyncronus Server :**
  <table>
  	  <tr>
  		  <td> Nomor </td>
@@ -72,9 +71,8 @@
       <td>  1.89   [Kbytes/sec] </td>
     </tr>
    </table>
-   
-   
    <br>
+   
 **Berikut ini adalah hasil Performance Test untuk Multithread Server :**
  <table>
  	  <tr>
@@ -144,11 +142,11 @@
       <td> 0.27 [Kbytes/sec] </td>
     </tr>
    </table>
+  <br> 
    
    
-   
-  <br>
-**Berikut ini adalah hasil Performance Test untuk Asyncronus Server Dengan Load Balancer :**
+  
+  **Berikut ini adalah hasil Performance Test untuk Asyncronus Server Dengan Load Balancer :**
  <table>
  	  <tr>
  		  <td> Nomor </td>
@@ -217,10 +215,10 @@
       <td> 0.00 [Kbytes/sec] </td>
     </tr>
    </table>
+  <br>
   
-  
-   <br>
-   **Kesimpulan**
+   
+   **Kesimpulan :**
    
    Dari ketiga table performance test diatas, dapat kita lihat bahwa asyncronus server yang menggunakan load balancer memproses lebih cepat jika dibandingkan dengan asyncronus server biasa dan multithread server yang menandakan bahwa performa asyncronus server lebih baik dibandingkan dengan asyncronus biasa dan multithread server. Load balancer bertugas untuk mendistribusikan request ke backend yag didefinisikan di class BackendList. Di dalam load balancer terdapat fungsi getserver pada class BackendList yang akan membuat backend dipilih secara round robin atau bergantian secara fair sehingga setiap request akan dilayani oleh backend yang bergantian. 
    
