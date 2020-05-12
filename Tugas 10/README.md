@@ -6,12 +6,10 @@
 - Pull Update Terbaru
 - Menjalankan async_server.py dengan port 9002, 9003, 9004, 9005 dengan menggunakan WSL <br> dengan perintah :<br>
  `python3 async_server.py 9002 & python3 async_server.py 9003 & python3 async_server.py 9004 & python3 async_server.py 9005 &`
- 
- ![gambar1](https://user-images.githubusercontent.com/36990780/81701878-c76b7380-9494-11ea-85dd-8e4773fa7967.png)
+    ![gambar1](https://user-images.githubusercontent.com/36990780/81701878-c76b7380-9494-11ea-85dd-8e4773fa7967.png)
  - Menjalankan file lb.py dan menjalankan di port 44444: <br> dengan perintah  <br>
  `python3 lb.py`
- 
- ![gambar2](https://user-images.githubusercontent.com/36990780/81701888-c9353700-9494-11ea-82d6-af2d604b11b0.png)
+    ![gambar2](https://user-images.githubusercontent.com/36990780/81701888-c9353700-9494-11ea-82d6-af2d604b11b0.png)
  - Mengakses http://localhost:44444/page.html pada browser 
  ![gambar3](https://user-images.githubusercontent.com/36990780/81701891-c9cdcd80-9494-11ea-9733-7430ee0c6182.png)
  - Mengecek dan melihat proses di log program bahwa setiap request akan dilayani oleh backend secara bergantian
